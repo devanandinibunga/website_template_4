@@ -1,0 +1,135 @@
+.cover-page-container{
+    background-image:linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%),  url('http://subsolardesigns.com/novelawp/wp-content/uploads/2014/10/missed_deadlines_by_aquasixio-d666l5m.jpg ');
+    // height: 100vh;
+    // filter: blur(.7);
+    background-size: cover;
+    padding: 5% 0% 1% 6%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    // background-blend-mode: ;
+    // opacity: 0.3;
+}
+.cover-page-details-container{
+    width: 100%;
+}
+.cover-page-title{
+    font-size: 55px;
+    line-height: 70px;
+    color: white;
+}
+.cover-page-description{
+    color: white;
+    opacity: 0.55;
+    font: 18px "Source Sans Pro";
+    line-height: 35px;
+    padding-right: 2%;
+    padding-left: 1%;
+    margin-bottom: 3%;
+}
+.cover-page-btn{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font: 15.3px "Source Sans Pro";
+    padding: 13px 23px;
+    margin: 0px 5px 15.3px;
+}
+.cover-page-image-container{
+    width: 100%;
+    display: flex;
+}
+.cover-page-image{
+    width: 300px;
+}
+
+
+@media (min-width:"768px") {
+    .cover-page-container{
+        width: 100%;
+        padding: 2%;
+        
+    }
+   .cover-page-details-container{
+        width: 50%;
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        .cover-page-title{
+            font-size: 60px;
+            font-weight: 400;
+            padding-right: 5%;
+        }
+        .cover-page-description{
+            font-size: 20px;
+            padding: 5% 0%;
+            opacity: 0.7;
+        }
+        .cover-page-btn{
+            width: 200px;
+        }
+   }
+    .cover-page-image-container{
+        width: 50%;
+        padding-top: 60px;
+        .cover-page-image{
+            width: 100%;
+            height: 80%;
+        }
+    }
+}
+
+@media (min-width:"1024px") {
+    .cover-page-container{
+        width: 100%;
+    }
+   .cover-page-details-container{
+        width: 50%;
+        padding: 10% 0% 1% 3%;
+        .cover-page-title{
+            font-size: 50px;
+        }
+        .cover-page-description{
+            font-size: 18px;
+        }
+        .cover-page-btn{
+            width: 40%;
+            display:inline-block;
+        }
+        .cover-page-button-container{
+            display: flex;
+        }
+   }
+    .cover-page-image-container{
+        width: 50%;
+        padding-top: 3%;
+        .cover-page-image{
+            width: 80%;
+            height: auto;
+        }
+    }
+}
+
+@media (min-width:"1440px") {
+    .cover-page-container{
+        width: 100%;
+    }
+   .cover-page-details-container{
+        width: 50%;
+        justify-content: center;
+        align-self: center;
+        .cover-page-description{
+            font-size: 27px;
+        }
+   }
+    .cover-page-image-container{
+        width: 50%;
+        align-self: center;
+        justify-content: center;
+        padding-top: 3%;
+        .cover-page-image{
+            width: 70%;
+        }
+    }
+}

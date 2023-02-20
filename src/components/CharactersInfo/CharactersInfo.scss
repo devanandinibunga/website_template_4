@@ -1,0 +1,84 @@
+.characters-info-container{
+    background-image:linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 60%), url('http://subsolardesigns.com/novelawp/wp-content/uploads/2014/10/8314929977_36b1d58cf6_o_d-1024x682.jpg');
+    background-size: cover;
+    width: 100%;
+    // opacity: 0.8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 56.7px;
+}
+.characters-info-carousel-container{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 4% 4% 18% 4%;
+    background-color: white;
+}
+.characters-info-container-title{
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    padding: 6% 2%;
+}
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+    // margin-bottom: 20%;
+    font-size: 5px;
+    width: 10vw;
+    height: 2vw;
+    margin-top: 550px;
+    align-items: start;
+    // justify-content: flex-start;
+// background-color: red;
+    margin-left: 6%;
+    color: black;
+}
+.carousel-item{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media (min-width:"768px"){
+    .characters-info-container{
+        display: flex;
+        flex-direction: column;
+    .characters-info-carousel-container{
+        width: 80%;
+        text-align: center;
+        padding: 4%;
+        align-self: center;
+        margin: 2% 3% 5% 3%;
+    }
+    .characters-info-container-title{
+        margin-top: 2%;
+    }
+    .carousel-control-next,
+    .carousel-control-prev {
+    filter: invert(100%);
+    // margin-bottom: 20%;
+    font-size: 5px;
+    width: 7vw;
+    height: 2vw;
+    margin-top: 260px;
+}
+}
+}
+
+
+@media (min-width:"1024px"){
+    .characters-info-container{
+    .characters-info-carousel-container{
+        width: 80%;
+        text-align: center;
+        padding: 4%;
+        margin-bottom: 8%;
+    }
+    }
+}
+
+
